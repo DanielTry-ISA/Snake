@@ -4,13 +4,15 @@
 
 int application_run(void){
 
-    if(!platform_init())
+   if (!platform_init())
     {
         return 1;
     }
+
     bool running = true;
-    while(running){
-        printf("Si funciona");
+
+    while (running)
+    {
         running = platform_process_events();
     }
 

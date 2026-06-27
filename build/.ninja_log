@@ -1,5 +1,5 @@
 # ninja log v7
-16	151	8038001344104199	CMakeFiles/Snake.dir/src/main.c.obj	38e89ff3f5bf5558
-22	167	8038001344160481	CMakeFiles/Snake.dir/src/core/application.c.obj	933123e9a3a37e8b
-27	668	8038001344220067	CMakeFiles/Snake.dir/src/platform/platform.c.obj	b6d199907bb0173a
-670	835	8038001350645366	Snake.exe	84821d320fa45cf5
+23	136	8042369676450528	CMakeFiles/Snake.dir/src/main.c.obj	38e89ff3f5bf5558
+28	188	8042369676491826	CMakeFiles/Snake.dir/src/core/application.c.obj	933123e9a3a37e8b
+77	657	8042370163543992	CMakeFiles/Snake.dir/src/platform/platform.c.obj	b6d199907bb0173a
+660	872	8042370169437838	Snake.exe	84821d320fa45cf5
