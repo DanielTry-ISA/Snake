@@ -14,6 +14,7 @@ add_executable(
     src/main.c
     src/core/application.c
     src/platform/platform.c
+    src/renderer/renderer.c
 )
 
 target_include_directories(

@@ -42,9 +42,7 @@ bool platform_process_events(void)
             return false;
         }
     }
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-    SDL_RenderClear(renderer);
-    SDL_RenderPresent(renderer);
+    
     return true;
 }
 
@@ -54,4 +52,8 @@ void platform_shutdown(void)
     SDL_DestroyWindow(window);
 
     SDL_Quit();
+}
+
+SDL_Renderer* platform_get_renderer(void){
+    return renderer;
 }

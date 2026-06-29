@@ -74,6 +74,16 @@ build CMakeFiles/Snake.dir/src/platform/platform.c.obj: C_COMPILER__Snake_unscan
   TARGET_PDB = Snake.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Snake.dir
 
+build CMakeFiles/Snake.dir/src/renderer/renderer.c.obj: C_COMPILER__Snake_unscanned_ C$:/Users/DANIEL/OneDrive$ -$ Universidad$ de$ los$ Andes/Escritorio/Mi$ Portafolio/Snake/src/renderer/renderer.c || cmake_object_order_depends_target_Snake
+  DEP_FILE = CMakeFiles\Snake.dir\src\renderer\renderer.c.obj.d
+  FLAGS = -std=gnu17
+  INCLUDES = -I"C:/Users/DANIEL/OneDrive - Universidad de los Andes/Escritorio/Mi Portafolio/Snake/src" -isystem C:/msys64/mingw64/include -isystem C:/msys64/mingw64/include/SDL2
+  OBJECT_DIR = CMakeFiles\Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles\Snake.dir\src\renderer
+  TARGET_COMPILE_PDB = CMakeFiles\Snake.dir\
+  TARGET_PDB = Snake.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\Snake.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Snake
@@ -82,7 +92,7 @@ build CMakeFiles/Snake.dir/src/platform/platform.c.obj: C_COMPILER__Snake_unscan
 #############################################
 # Link the executable Snake.exe
 
-build Snake.exe: C_EXECUTABLE_LINKER__Snake_ CMakeFiles/Snake.dir/src/main.c.obj CMakeFiles/Snake.dir/src/core/application.c.obj CMakeFiles/Snake.dir/src/platform/platform.c.obj | C$:/msys64/mingw64/lib/libSDL2.dll.a
+build Snake.exe: C_EXECUTABLE_LINKER__Snake_ CMakeFiles/Snake.dir/src/main.c.obj CMakeFiles/Snake.dir/src/core/application.c.obj CMakeFiles/Snake.dir/src/platform/platform.c.obj CMakeFiles/Snake.dir/src/renderer/renderer.c.obj | C$:/msys64/mingw64/lib/libSDL2.dll.a
   LINK_LIBRARIES = C:/msys64/mingw64/lib/libSDL2.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Snake.dir
   POST_BUILD = cd .
